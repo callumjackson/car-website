@@ -1,0 +1,121 @@
+body{
+  background-color: #151414 !important;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+.accimg{
+margin-top: 50px;
+width: 100%;
+}
+
+.btnalign{
+  text-align: center;
+}
+
+.button{
+  position: absolute;
+}
+
+.center{
+  display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+
+.logotext {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding-left: 10px !important;
+}
+.card .card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+    background-color: #CCCCCC !important;
+    font-family: 'Pontano Sans', sans-serif;
+    height: auto;
+    width: auto;
+    text-align: justify;
+    color: black;
+
+}
+.carousel{
+  height: 400px;
+  width: auto;
+}
+
+.imglogin{
+  width: auto;
+  height: auto;
+}
+.searchnav {
+    color: #000;
+    background-color: #6b6b6b;
+    width: 100%;
+    height: 35px;
+}
+
+ .fullscreen-video{
+  position: absolute;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index:1;
+
+}
+.fullscreen-video video{
+min-width: 100%;
+min-height: 100%;
+}
+
+.overlay{
+  height:100%;
+  width: 100%;
+  position: absolute;
+  left:0;
+  background: #444444;
+  z-index:2;
+  opacity: 0.75;
+}
+
+.content{
+  position: absolute;
+  z-index:3;
+text-align: center;
+color: #ffffff;
+padding-top: 180px;
+}
+.reg {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #333333;
+    opacity: .8;
+    border-radius: 7%;
+
+  }
+.msg{
+    color: #fff !important;
+}
+.car-container{
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+}
+.car-box{
+  padding-bottom: 30px;
+  width: 100%;
+}
+.carheading{
+  text-align: center;
+  text-decoration: underline;
+}
